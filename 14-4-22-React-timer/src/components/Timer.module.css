@@ -1,0 +1,47 @@
+
+.main {
+  width: 300px;
+  position: absolute;
+  top: 10px;
+  left: 128px;
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:40px 30px
+}
+.main>div{
+    display: flex;
+}
+
+button{
+    background-color:#000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size:20px;
+    padding:10px 30px;
+    margin:10px 20px;
+    border-radius: 5px;
+    transition: transform 0.1s ease-in-out;
+}
+button:active{
+    transform: scale(0.90);
+}
+
+.container>div:nth-child(2){
+  width:400px;
+    display: flex;
+}
+.container>div:nth-child(2)>h1{
+    width:100px;
+
+}
+.container>div:nth-child(2)>div{
+    width:300px;
+    display: flex;
+    justify-content: space-around;
+}
